@@ -7,3 +7,4 @@ Ang front-end code sa website kay open source, welcome para makatabang sa pag-op
 * [front-end nga code](https://github.com/xxai-art/web)
 * [Language pack para sa site sa kinatibuk-an](https://github.com/xxai-art/web/tree/main/i18n)
 * [Mga pakete sa pinulongan para sa mga module sa pag-login](https://github.com/wacpkg/user/tree/main/ui.i18n)
+* [Website nga Multilingual nga Dokumentasyon](https://github.com/xxai-doc)
