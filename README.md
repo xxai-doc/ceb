@@ -17,14 +17,14 @@ Ang front-end programming language mao [ang @w5/coffee_plus](http://npmjs.com/@w
 
 Pagtukod sa mosunod nga 3 ka proyekto
 
-### [@w5/mdt](https://www.npmjs.com/package/@w5/mdt)
+* [@w5/mdt](https://www.npmjs.com/package/@w5/mdt)
 
-Ang markdown template, nga adunay suffix `.mdt` , mahimong magtumong sa external files nga adunay syntax nga susama sa `<+ ./coffee_plus/import.js>` .
+  Ang suffix mao ang `.mdt` , mahimo nimong gamiton ang syntax nga susama sa `<+ ./coffee_plus/import.js>` para mag-refer sa external files, ug makamugna og markdown gamit ang suffix `.md` .
 
-[@w5/trmd](https://www.npmjs.com/package/@w5/trmd)
+* [@w5/trmd](https://www.npmjs.com/package/@w5/trmd)
 
-Ang paghubad sa Markdown dili maghubad sa mga code ug mga link, ug mag-cache sa gihubad nga mga tudling-pulong. Kung ang hubad giusab apan ang orihinal nga teksto wala gibag-o, ang pagpatuman niini pag-usab dili mag-overwrite sa pagbag-o sa hubad.
+  Ang paghubad sa Markdown dili maghubad sa mga code ug mga link, ug mag-cache sa gihubad nga mga tudling-pulong. Kung ang hubad giusab apan ang orihinal nga teksto wala gibag-o, ang pagpatuman niini pag-usab dili mag-overwrite sa pagbag-o sa hubad.
 
-[@w5/i18n](https://www.npmjs.com/package/@w5/i18n)
+* [@w5/i18n](https://www.npmjs.com/package/@w5/i18n)
 
-Mga file sa pinulongan para sa paghubad `yaml` nga mga website.
+  Mga file sa pinulongan para sa paghubad `yaml` nga mga website.
