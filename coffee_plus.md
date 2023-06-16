@@ -2,13 +2,13 @@
 
 [@w5/coffee_plus](http://npmjs.com/@w5/coffee_plus) , idugang ang pipila ka bahin base sa coffeescript syntax, tan-awa ang [coffee_plus](./coffee_plus.md) .
 
-* ipahayag ang variable
+## ipahayag ang variable
 
 ```
 + var1, var2
 ```
 
-* label sa deklarasyon
+## label sa deklarasyon
 
 `:$` kay gamiton sa [svelte](https://svelte.dev/docs#component-format-script-3-$-marks-a-statement-as-reactive) .
 
@@ -90,7 +90,7 @@ $ : (func = function() {
 });
 ```
 
-* dali nga import
+## dali nga import
 
 ```
 > zx/globals:
