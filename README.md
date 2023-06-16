@@ -1,10 +1,10 @@
 <p align="center"><a href="https://xxai.art"><img src="https://cdn.jsdelivr.net/gh/xxai-art/doc/logo.svg"/></a><br/><a href="https://xxai.art"><img src="https://cdn.jsdelivr.net/gh/xxai-art/doc/xxai.svg"/></a></p><p align="center"><a href="https://github.com/xxai-art/doc#readme"><img alt="I18N" src="https://cdn.jsdelivr.net/gh/wactax/img/t.svg"/></a>　<a href="https://groups.google.com/u/0/g/xxai-art"><img alt="Google Groups" src="https://cdn.jsdelivr.net/gh/wactax/img/g-groups.svg"/></a></p>
 
-# xxAI.art
+Girekomenda nga i-install una ang nodejs, [direnv](https://direnv.net) , [bun](https://github.com/oven-sh/bun) , ug dayon `direnv allow` pagkahuman sa pagsulod sa direktoryo ( [ang .envrc](https://github.com/xxai-art/doc/blob/main/.envrc) awtomatik nga ipatuman pagkahuman sa pagsulod sa direktoryo).
 
-Kabahin sa code sa website kay open source, welcome sa pagtabang sa pag-optimize sa translation.
+Ang kahulogan mao ang: Intsik nga hubad sa Japanese, Korean, English, English nga hubad sa tanan nga ubang mga pinulongan. Kung gusto nimo nga suportahan ang Intsik ug English, mahimo nimo isulat `zh: en` .
 
-## front-end nga code
+Ang kahulogan mao ang: Intsik nga hubad sa Japanese, Korean, English, English nga hubad sa tanang ubang mga pinulongan. Kung gusto lang nimo suportahan ang Intsik ug English, mahimo nimong isulat `zh: en` .
 
 * [front-end nga code](https://github.com/xxai-art/web)
 * [Language pack para sa site sa kinatibuk-an](https://github.com/xxai-art/web/tree/main/i18n)
@@ -31,15 +31,15 @@ Pagtukod sa mosunod nga 3 ka proyekto
 
 ### Mga Instruksyon sa Automation sa Paghubad sa Dokumento
 
-Tan-awa ang repository [nga xxai-art/doc](https://github.com/xxai-art/doc)
+Tan-awa ang code repository [xxai-art/doc](https://github.com/xxai-art/doc)
 
-Girekomenda nga i-install una ang nodejs, [direnv](https://direnv.net) ug [bun](https://github.com/oven-sh/bun) , ug dayon pagdagan `direnv allow` pagkahuman mosulod sa direktoryo.
+Girekomenda nga i-install una ang nodejs, [direnv](https://direnv.net) , [bun](https://github.com/oven-sh/bun) , ug dayon `direnv allow` pagkahuman sa pagsulod sa direktoryo ( [ang .envrc](https://github.com/xxai-art/doc/blob/main/.envrc) awtomatik nga ipatuman pagkahuman sa pagsulod sa direktoryo).
 
-Aron malikayan ang sobra ka dako nga mga bodega nga gihubad ngadto sa gatusan ka mga pinulongan, naghimo ako og usa ka bulag nga bodega sa code alang sa matag pinulongan ug naghimo og usa ka organisasyon sa pagtipig niini nga bodega
+Aron malikayan ang dako nga base sa code nga gihubad ngadto sa gatusan ka mga pinulongan, naghimo ako og usa ka bulag nga base sa code alang sa matag pinulongan ug naghimo og usa ka organisasyon aron tipigan ang code base
 
-Ang pag-set sa environment variable `GITHUB_ACCESS_TOKEN` ug dayon pagpadagan [sa create.github.coffee](https://github.com/xxai-art/doc/blob/main/create.github.coffee) awtomatik nga maghimo sa bodega.
+Ang pagbutang sa environment variable `GITHUB_ACCESS_TOKEN` ug dayon pagpadagan [sa create.github.coffee](https://github.com/xxai-art/doc/blob/main/create.github.coffee) awtomatik nga maghimo sa code repository.
 
-Siyempre, mahimo usab nimo kini ibutang sa usa ka bodega.
+Siyempre, mahimo usab nimo kini ibutang sa base sa code.
 
 Reperensya sa script sa paghubad [run.sh](https://github.com/xxai-art/doc/blob/main/run.sh)
 
@@ -71,4 +71,8 @@ Ang Google API gigamit alang sa libre nga paghubad. Kung dili ka maka-access sa 
 export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
 ```
 
-Ang script sa paghubad maghimo ug cache sa paghubad sa direktoryo sa `.i18n` , palihug susiha kini sa `git status` ug idugang kini sa repository sa code aron malikayan ang gibalikbalik nga paghubad.
+Ang script sa paghubad maghimo ug gihubad nga cache sa `.i18n` nga direktoryo, palihug susiha kini sa `git status` ug idugang kini sa code repository aron malikayan ang balikbalik nga paghubad.
+
+Palihug pagdagan `bunx i18n` matag higayon nga imong usbon ang hubad aron ma-update ang cache.
+
+Kung ang orihinal nga teksto ug ang paghubad giusab sa parehas nga oras, ang cache malibog, busa kung gusto nimo nga usbon, mahimo ra nimo usbon ang usa, ug dayon pagdagan `bunx i18n` aron ma-update ang cache.
